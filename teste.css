@@ -1,0 +1,129 @@
+*{
+    font-family: "Roboto";
+}
+body{
+    background-color: #f7f3f2;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+#page-body{
+    flex: 1.5;
+    padding: 2rem 2rem;
+}
+#item-2{
+    flex: 1;
+    padding: 2rem 2rem;
+    margin-top: 6rem;
+}
+#logo{
+    margin-bottom: 2rem;
+}
+h1{
+    text-align: center;
+}
+h2{
+    opacity: 0.8;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+#cv{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 2rem;
+}
+.islands img{
+    width: 350px;
+    
+}
+.islands p {
+    text-align: center;
+   font-weight: bold;
+   opacity: 0.8;
+}
+#page-body p{
+    font-weight: bold;
+    opacity: 0.8;
+    margin-left: 3rem;
+    text-decoration: none;
+}
+#page-body a{
+    font-weight: bold;
+    color:green;
+    text-decoration: none;
+    
+}
+#services{
+    margin-left: 4rem;
+    margin-top: 2rem;
+    
+
+}
+#services h3{
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #42d1f5;
+    padding: 1rem;
+    width: 250px;
+
+}
+#services ul{
+    font-size: 18px;
+    margin-left: 2rem;
+    font-weight: bold;
+    margin-top: 2rem;
+
+}
+#services p{
+    font-size: 18px;
+    margin-left: 6rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    background-color:#42d1f5 ;
+    border: 2px solid #fff;
+    font-size: 1.1rem;
+    width: 110px;
+    text-align: center;
+    cursor: pointer;
+    padding: 0.7rem;
+    
+}
+#services a{
+    text-decoration: none;
+    transition: 0.4s;
+    color: black;
+    
+}
+#services a:hover{
+   color: #fff;
+   text-decoration: none;
+
+}
+#contact{
+    margin-left: 10rem;
+    
+}
+#contact p{
+   font-weight: bold;
+   margin-top: 4rem;
+    
+}
+#contact ul{
+   list-style-type: none;
+   text-decoration: none;
+   display: flex;
+   
+ }
+ #contact img{
+   width: 3rem;
+     
+  }
+ #contact a{
+    text-decoration: none;
+    color: black; 
+    font-weight: bold;
+    
+  }
+ 
